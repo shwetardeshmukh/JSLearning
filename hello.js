@@ -55,4 +55,3 @@ console.log("Befor swap =>" , "a",a,"b",b,"c",c,"d",d);
 var myFullName = "Shweta";
 console.log("name  :" + myFullName);
 console.log( typeof myFullName );
-
