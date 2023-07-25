@@ -17,4 +17,24 @@ console.log(num.trim());
 console.log(text.replace("deshmukh"));
 console.log(text.charAt("2"));
 console.log(num.indexOf("d"));
+console.log("******************************************************************");
+var myFullName;
+console.log(myFullName);
+
+var myFullName = "Shweta Deshmukh";
+console.log(myFullName);
+
+var myFullName = "Shweta Raosaheb Deshmukh";
+console.log(myFullName);
+
+var myLove = "I Love only JS";
+console.log(myLove);
+
+var firstName = "Shweta";
+console.log(`First Name = ${firstName}`);
+var lastName = "Deshmukh";
+console.log(`Last Name =${lastName}`);
+var age = "23";
+console.log(`last Name =${lastName}` );
+var address
 
