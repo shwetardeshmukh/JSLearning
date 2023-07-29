@@ -25,7 +25,7 @@ marriageEligibility("Other",35);
 marriageEligibility("Other",41);
 
 
-console.log("------------------------Assignment 3------------------------------------------");
+console.log("------------------------Assignment 3-------------------------------------------");
 
  var leapYear = function(year){
    var result = +year;
