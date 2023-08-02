@@ -35,7 +35,7 @@ console.log("----------------------------------");
 //even number position elements and its sum
 var sum = 0;
 for (let index = 0; index < arrayNumber.length; index++) {
-  if (index % 2 == 0) {
+  if (arrayNumber[index]% 2 == 0) {
     sum = sum + arrayNumber[index];
   }
 }
@@ -44,7 +44,7 @@ console.log("-------------------------------");
 //odd number position elements and its sum
 var sum = 0;
 for (let index = 0; index < arrayNumber.length; index++) {
-  if (index % 2 == 1) {
+  if (arrayNumber[index] % 2 == 1) {
     sum = sum + arrayNumber[index];
   }
 }
