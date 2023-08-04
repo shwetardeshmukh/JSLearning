@@ -201,23 +201,6 @@ let array5 = [4, 5, 6, 7, 8, 9];
 console.log(array5);
 
 console.log(...array5);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 console.log(`------ join ----------`);
 
 let result = array1.join(",");
