@@ -26,7 +26,7 @@ console.log(professor.degree);
 console.log(professor.certificates);
 var string2 = professor.teachersDegree();
  console.log(`All Degree's are : ${string2}`);
-professor.totalExperieance = "14 ";
+professor.totalExperieance = "14 years ";
 console.table(professor);
 professor.certificates.push("oracle certificates");
 console.log(professor.certificates);

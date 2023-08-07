@@ -70,3 +70,5 @@ for (const key in student) {
 
 }
 let isAvailable= "college" in student;
+
+
