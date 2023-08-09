@@ -36,6 +36,6 @@ function reverseString(strings) {
     var char = string.charAt(index);
     reverse = reverse+char;
   }
-      console.log(` ${reverse}`);
+      console.log(`${[array[0]]} ${reverse}`);
 }
 reverseString("Codemind Technology");
