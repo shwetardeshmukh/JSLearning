@@ -6,9 +6,9 @@
 
  
 
-//var age = 22;
+// var age = 22;
 
-// delete age; // Not allowed
+//  delete age; // Not allowed
 
  
 
