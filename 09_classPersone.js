@@ -8,7 +8,7 @@ class Student {
       this.mobile = mobile;
   
     }
-    show(){
+    show(){6
       console.log(`Student Details is Full Name: ${this.fullName} , Roll Number: ${this.rollNo}
       College Name: ${this.college}, Email Id: ${this.emailId}, Mobile : ${this.mobile}`);
   
