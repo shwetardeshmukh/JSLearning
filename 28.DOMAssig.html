@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Assignment</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1 id="overview">HTML and JavaScript are crucial technologies</h1>
+        <p>The Web Would not work without then...</p>
+      </div>
+      <div id="advantages">
+        <ul>
+          <li class="advantageSec">Flexible</li>
+          <li id="secoundAdv" class="advantageSec">Available</li>
+          <li class="advantageSec">Magical</li>
+        </ul>
+      </div>
+    </main>
+    <script>
+      const mainHeading = document.getElementById("overview");
+      console.log(mainHeading.innerHTML);
+      console.log("============================================");
+
+      const secoundAdvantage = document.getElementById("secoundAdv");
+      console.log(secoundAdvantage.innerHTML);
+
+      //     const advDiv = document.getElementById('advantages');
+      //    console.log(advDiv.innerHTML);
+      console.log("============================================");
+      const advDiv = document.querySelectorAll(".advantageSec");
+      for (let index = 0; index < advDiv.length; index++) {
+        const elements = advDiv[index];
+        console.log(elements.innerHTML);
+      }
+    </script>
+  </body>
+</html>

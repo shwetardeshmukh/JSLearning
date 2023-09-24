@@ -1,0 +1,34 @@
+//remove the elements from the string with and without the replace method
+
+//with replace method
+let string = "I am learing the javascript code"
+let string2 = string.replace("the","")
+console.log(string2);
+
+//without replace method
+(function(string) {
+    let array = string.split(" ")
+    let arrayRemove = array.splice(2,4);
+    console.log(arrayRemove);
+})("I am learing the javascript code")
+
+// how to join the multiple strings and print at the time
+
+// let x = "Hellow \n"+"world"
+// console.log(x)
+
+
+//check string is empty or not
+
+function  value(string) {
+    if (string.length == 0) {
+        return true 
+    }
+    else{
+        return false
+    }
+
+
+}
+let x = value ("")
+console.log(x);
